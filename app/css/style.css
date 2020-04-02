@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+body {
+    width: 450px;
+    background-color: #0e1120;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(37, 42, 61, 0.5);
+    padding: 13px;
+    margin: 10px -10px 10px;
+}
+
+.xselect2-container {
+    width: 100% !important;
+}
+
+.xselect2-selection {
+    height: 35px;
+    padding: 5px;
+}
+
+._select-dropdown {
+    color: #fff;
+    background-color: #252a3d;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+._select-container {
+    color: #fff;
+    background-color: #252a3d !important;
+    border: 2px solid #444856 !important;
+    margin-bottom: 3px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.select2-selection__choice {
+    background-color: transparent!important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    color: #252a3d;
+}
+
+.select2-selection__rendered {
+    color: #fff!important;
+}
+
+.select2-selection--multiple .select2-search__field {
+    color: #fff;
+}
+
+
+/* TABLE */
+
+.table {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table li span:nth-child(1) {
+    flex-basis: 25%;
+    text-align: left;
+    color: #ffddb7;
+    font-size: 14px;
+}
+
+.table li span:nth-child(2) {
+    flex-basis: 25%;
+    border-left: 2px solid #0e1120;
+}
+
+.table li span:nth-child(3) {
+    flex-basis: 25%;
+    border-left: 2px solid #0e1120;
+}
+
+.table li span:nth-child(4) {
+    flex-basis: 25%;
+    border-left: 2px solid #0e1120;
+}
+
+
+/* TABLE HEADER */
+
+.table .table-header {
+    padding: 5px 15px 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table .table-header span:nth-child(2) {
+    color: orange;
+}
+
+.table .table-header span:nth-child(3) {
+    color: red;
+}
+
+.table .table-header span:nth-child(4) {
+    color: greenyellow;
+}
+
+
+/* TABLE ROW */
+
+.table .table-row {
+    padding: 15px 15px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px -8px;
+    background-color: #252a3d;
+    font-size: 18px;
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252a3d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #575c6d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 143, 143);
+}

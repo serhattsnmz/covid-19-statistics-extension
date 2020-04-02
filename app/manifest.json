@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "author": "Serhat Sonmez (https://www.serhatsonmez.com.tr)",
+
+    "name": "COVID-19 Statistics by Country",
+    "description": "COVID-19 Statistics by Country",
+    "version": "1.2.3",
+
+    "browser_action": {
+        "default_icon": {
+            "16": "images/virus_16.png",
+            "24": "images/virus_24.png",
+            "32": "images/virus_32.png",
+            "128": "images/virus_128.png"
+        },
+        "default_popup": "main.html",
+        "default_title": "COVID-19 Statistics"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

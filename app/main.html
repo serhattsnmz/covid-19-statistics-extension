@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>COVID Information</title>
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/county_codes.js"></script>
+    <script src="js/backend.js"></script>
+
+</head>
+
+<body>
+
+    <h3>Select Countries</h3>
+    <select id="countries" multiple></select>
+
+    <h3>General COVID Information</h3>
+    <ul class="table" id="general-info">
+        <li class="table-header">
+            <span></span>
+            <span>Confirmed</span>
+            <span>Deaths</span>
+            <span>Recovered</span>
+        </li>
+    </ul>
+
+    <h3>Last 10 Days of Selected Country</h3>
+    <select id="country"></select>
+    <ul class="table" id="last-info">
+        <li class="table-header">
+            <span></span>
+            <span>Confirmed</span>
+            <span>Deaths</span>
+            <span>Recovered</span>
+        </li>
+    </ul>
+
+</body>
+
+</html>
