@@ -5,7 +5,7 @@
 
     "name": "COVID-19 Statistics by Country",
     "description": "COVID-19 Statistics by Country",
-    "version": "1.2.4",
+    "version": "1.2.5",
 
     "browser_action": {
         "default_icon": {
